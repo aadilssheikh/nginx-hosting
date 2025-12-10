@@ -43,7 +43,7 @@ Using `deploy.sh`, I automated:
 This allows updates to be deployed with a single command:
 
 ```bash
-./deploy.sh
+./deploy.sh ,
 
 🗂 Folder Structure
 
@@ -61,7 +61,7 @@ nginx-hosting/
 │
 └── README.md  <-- (this file)
 
-🌐 Live Preview (Local)
+**🌐 Live Preview (Local)**
 
 After deploying, the site can be viewed at:
 
@@ -72,9 +72,9 @@ or
 http://127.0.0.1
 
 
-##🧠 What I Learned
+**🧠 What I Learned**
 
-#This project gave me practical, real DevOps experience:
+*This project gave me practical, real DevOps experience:
 
 🔹 Linux system management
 🔹 NGINX server setup & troubleshooting
@@ -83,9 +83,10 @@ http://127.0.0.1
 🔹 File permissions and ownership
 🔹 Working inside WSL Linux environment
 🔹 Deploying a portfolio website from source code
-📈 Future Enhancements
+📈 Future Enhancements 
 
-#Planned improvements:
+
+**Planned improvements:**
 
 Containerize the project using Docker (Project 2)
 
@@ -99,7 +100,7 @@ Add dynamic sections to the website
 
 🧑‍💻 About the Author
 
-I’m Aadil Sheikh, an aspiring DevOps Engineer building a full portfolio of practical DevOps projects, including:
+**I’m Aadil Sheikh, an aspiring DevOps Engineer building a full portfolio of practical DevOps projects, including:**
 
 Linux administration
 
