@@ -1,10 +1,82 @@
-body{
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  margin: 2rem;
-  color:#111;
-  background:#fbfbfc;
+/* General Layout */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f0f4ff;
+  color: #222;
 }
-header h1{ color:#0b5cff; margin-bottom:0.2rem }
-.lead{ color:#333; margin-top:0; }
-section{ margin-top:1.2rem; padding:1rem; background:#fff; border-radius:.5rem; box-shadow:0 1px 3px rgba(0,0,0,0.05) }
-footer{ margin-top:2rem; color:#666; }
+
+/* HEADER / HERO */
+.hero {
+  background: linear-gradient(135deg, #0066ff, #00c2ff);
+  padding: 3rem 1rem;
+  text-align: center;
+  color: white;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* CARD STYLE */
+.card {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 14px;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+.card h2 {
+  margin-top: 0;
+  color: #0066ff;
+}
+
+/* ROADMAP */
+.roadmap {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.roadmap-item {
+  background: #e8f1ff;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 10px;
+  border-left: 5px solid #0066ff;
+  font-weight: 500;
+}
+
+/* BUTTONS */
+.btn {
+  display: inline-block;
+  background: #0066ff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.btn:hover {
+  background: #004fcc;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  color: #444;
+  margin-top: 2rem;
+}
