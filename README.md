@@ -72,9 +72,9 @@ or
 http://127.0.0.1
 
 
-🧠 What I Learned
+##🧠 What I Learned
 
-This project gave me practical, real DevOps experience:
+#This project gave me practical, real DevOps experience:
 
 🔹 Linux system management
 🔹 NGINX server setup & troubleshooting
@@ -85,7 +85,7 @@ This project gave me practical, real DevOps experience:
 🔹 Deploying a portfolio website from source code
 📈 Future Enhancements
 
-Planned improvements:
+#Planned improvements:
 
 Containerize the project using Docker (Project 2)
 
